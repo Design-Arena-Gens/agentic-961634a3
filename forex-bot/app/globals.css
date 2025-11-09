@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  @apply bg-slate-900 rounded-xl border border-slate-800 shadow-xl;
+}
+
+.badge {
+  @apply inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide;
+}
